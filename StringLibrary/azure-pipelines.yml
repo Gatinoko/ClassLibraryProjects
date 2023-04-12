@@ -10,7 +10,7 @@ trigger:
 # the build will run on a Microsoft hosted agent, using the lastest Windows VM Image
 pool:
   name: 'default'
-  vmImage: 'ubuntu-latest'
+  vmImage: 'GATINOKO'
 
 # these variables are available throughout the build file
 # just the build configuration is defined, in this case we are building Release packages
